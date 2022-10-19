@@ -1,5 +1,0 @@
-ConvPoint
-/home/themi/convpoint_ws/devel/.private/convpoint_ros/cmake.lock /home/themi/convpoint_ws/devel/./cmake.lock
-/home/themi/convpoint_ws/devel/.private/convpoint_ros/lib/pkgconfig/convpoint_ros.pc /home/themi/convpoint_ws/devel/lib/pkgconfig/convpoint_ros.pc
-/home/themi/convpoint_ws/devel/.private/convpoint_ros/share/convpoint_ros/cmake/convpoint_rosConfig-version.cmake /home/themi/convpoint_ws/devel/share/convpoint_ros/cmake/convpoint_rosConfig-version.cmake
-/home/themi/convpoint_ws/devel/.private/convpoint_ros/share/convpoint_ros/cmake/convpoint_rosConfig.cmake /home/themi/convpoint_ws/devel/share/convpoint_ros/cmake/convpoint_rosConfig.cmake
