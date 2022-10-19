@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>convpoint_ros</name>
+  <version>1.0.0</version>
+  <description>ROS wrapper for Semantic Segmentation in python3 and pytorch</description>
+
+	<maintainer email="balasooriyab@mun.ca"> Narmada Balasooriya </maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>catkin_simple</buildtool_depend>
+
+  <depend>rospy</depend>
+  <depend>sensor_msgs</depend>
+
+</package>
