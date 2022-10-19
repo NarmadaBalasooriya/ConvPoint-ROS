@@ -1,0 +1,27 @@
+<launch>
+
+    <node name="convpoint_ros" pkg="convpoint_ros" type="run_rosconvpoint" output="screen" >
+
+        <!-- Input -->
+        <!-- Color image_raw topic to="/topic/name" -->
+        <remap from="lvi_sam/lidar/mapping/map_local"             to="/lvi_sam/lidar/mapping/map_local"/>
+        <!-- Output -->
+        <!-- Rename output topic if required -->
+        <remap from="segmentation/velodyne_points"        to="/segmentation/map_local_seg" />
+
+        <!-- GPU ID -->
+        <!-- param name="gpu_id" value="0" /-->
+        <!-- hyperparameters -->
+        <param name="batch_size" value="8" type="int" />
+
+        <param name="npoints" value="5000" type="int" />
+        <!-- Path to log file  -->
+        <param name="log_file" value="/home/themi/convpoint_ws/src/ConvPoint/ros_results3" />
+        <!-- Path to model ckpt dir. -->
+        <param name="model_dir" value="/home/themi/convpoint_ws/src/ConvPoint/examples/semantic3d/pretrained_model/SegBig_nocolor/current/SegBig_8192_nocolorTrue" />
+
+
+    </node>
+
+
+</launch>
